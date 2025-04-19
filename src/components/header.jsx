@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <nav>
+      <Link to="/">
+        <img src="/logo.png" className="h-10" alt="logo" />
+      </Link>
+    </nav>
   );
 };
 
