@@ -1,5 +1,5 @@
 .logo {
     max-width: 80px; /* Adjust the value as needed */
     height: auto;
-    display: block;
+    display:flex
 }
