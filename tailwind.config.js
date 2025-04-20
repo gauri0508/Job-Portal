@@ -17,6 +17,14 @@ module.exports = {
       },
     },
     extend: {
+      fontSize: {
+        '10xl': '10rem',  // 160px
+        '11xl': '11rem',  // 176px
+        '12xl': '12rem',  // 192px
+        '13xl': '13rem',  // 208px
+        '14xl': '14rem',  // 224px
+        '15xl': '15rem',  // 240px
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

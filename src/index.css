@@ -1,4 +1,4 @@
-
+@import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -111,6 +111,22 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+}
+
+/* @layer utilities {
+  .gradient {
+    @apply bg-gradient-to-br from-gray-500 via-gray-200 to-white;
+  }
+  .gradient-title {
+    @apply gradient text-transparent bg-clip-text;
+  }
+} */
+
+.gradient-title {
+  background-image: linear-gradient(to bottom right, #6b7280, #e5e7eb, #ffffff); /* gray-500, gray-200, white */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 @layer base {
