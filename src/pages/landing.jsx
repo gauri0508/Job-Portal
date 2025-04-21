@@ -72,7 +72,7 @@ function LandingPage() {
       </Carousel>
 
       {/* banner */}
-      <img src='/banner.jpeg' className="w-full"/>
+      <img src='/banner3.png' className="w-full"/>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card>
