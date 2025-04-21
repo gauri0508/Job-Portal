@@ -1,12 +1,109 @@
-# React + Vite
+# 💼 Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive, and modern **Job Portal Web Application** built with React, Vite, Tailwind CSS, and Supabase. It aims to connect job seekers with companies in a seamless and user-friendly environment. This project is designed to simulate a real-world recruitment platform where:
 
-Currently, two official plugins are available:
+- **Job seekers** can browse, search, and apply for jobs.
+- **Recruiters** can post job openings and manage their listings.
+- **Companies** can build a presence by showcasing their profiles and logos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Key Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Search for Jobs** with ease using a clean and responsive UI.
+- 🧑‍💼 **Post New Jobs** and manage them with real-time updates.
+- 🏢 **Company Carousel** displaying logos of hiring companies.
+- 🎨 **Fully responsive layout** with scalable design using Tailwind CSS v4.1.
+- ☁️ **Supabase backend** with real-time database, authentication, and storage.
+- 📂 Clean folder structure for scalability and readability.
+- ⚡ Fast build & hot reload with Vite.
+
+---
+
+## 🛠️ Built With
+
+| Tech            | Purpose                              |
+|-----------------|--------------------------------------|
+| **React**       | Frontend library                     |
+| **Vite**        | Fast build tool                      |
+| **Tailwind CSS**| Modern utility-first styling         |
+| **Supabase**    | Backend (DB, Auth, Storage)          |
+| **React Router**| Navigation & routing                 |
+
+---
+
+## 📦 Getting Started
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/gauri0508/Job-Portal.git
+cd Job-Portal
+```
+
+### 2. Install dependencies:
+
+```bash
+npm install
+```
+
+### 3. Configure environment variables:
+
+Create a `.env` file in the root:
+
+```env
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
+```
+
+> 📝 You can find these values in your [Supabase Project Dashboard](https://app.supabase.com/).
+
+### 4. Run the app locally:
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` to see the project running.
+
+---
+
+## 🧭 Project Structure
+
+```
+Job-Portal/
+├── public/                 # Static assets (icons, logos)
+├── src/
+│   ├── components/         # Buttons, Navbar, Cards, etc.
+│   ├── pages/              # Route-based pages (Home, Post Job, Jobs)
+│   ├── utils/              # Supabase config & helper functions
+│   ├── App.jsx             # Application root component
+│   └── main.jsx            # Entry point
+├── .env                    # Environment variables
+├── tailwind.config.js      # Tailwind configuration
+├── package.json            # Project dependencies & scripts
+└── vite.config.js          # Vite configuration
+```
+
+---
+
+## 🔐 Authentication
+
+Supabase's Auth module is used to handle secure user authentication and authorization. It supports:
+
+- Sign-up/sign-in (email or OAuth)
+- Token-based secure API calls
+- Protected routes and restricted actions
+
+---
+
+
+## 🙋‍♀️ Author
+
+Made with ❤️ by [**Gauri**](https://github.com/gauri0508)
+
+---
+
+
