@@ -32,6 +32,22 @@ A sleek, responsive, and modern **Job Portal Web Application** built with React,
 
 ---
 
+
+### 🏠 Landing Page
+![Landing Page](./screenshots/langingPage.png)
+
+### 💼 Job Listings
+![Job Listings](./screenshots/JobListing.png)
+
+### 💼 My Jobs
+![My Jobs](./screenshots/MyJobs.png)
+
+### 💼 Saved Jobs
+![Saved Jobs](./screenshots/SavedJobs.png)
+
+### 💼 UserProfile
+![User Profile](./screenshots/UserProfile.png)
+
 ## 📦 Getting Started
 
 Follow these steps to run the project locally:
